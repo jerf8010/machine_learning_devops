@@ -10,7 +10,10 @@
 # Version Control
 
 Create and move on new branch
-`git checkout -b 'project_two_branch'`
+`git checkout -b project_two_branch`
 
 Delete branches
-`git checkout -d 'project_two_branch`
+`git checkout -d project_two_branch`
+
+Push a local branch
+`git push --set-upstream origin project_two_branch`
